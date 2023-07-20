@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--generate hex code from rbg given in the assignment-->
+    <style name="buttonStyle" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:backgroundTint">#4286F4</item>
+    </style>
+
+</resources>

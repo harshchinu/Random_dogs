@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Doggo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="generate_dogs_screen">Generate Dogs Screen</string>
+    <string name="dog_gallery">Dog Gallery</string>
+    <string name="clear_cache">Clear Cache</string>
+    <string name="fetch_dog_image">Fetch Dog Image</string>
+    <string name="no_dogs_image_fetched">No Dogs Image Fetched</string>
+</resources>

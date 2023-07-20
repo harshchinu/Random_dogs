@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dimen_20dp"
+    tools:context=".ui.fragments.generate.GenerateDogFragment">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/generateDogImageView"
+        app:layout_constraintEnd_toEndOf="@id/generateDogImageView"
+        app:layout_constraintStart_toStartOf="@id/generateDogImageView"
+        app:layout_constraintTop_toTopOf="@id/generateDogImageView" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/generateDogImageView"
+        android:layout_width="@dimen/dimen_300dp"
+        android:layout_height="@dimen/dimen_300dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/generateDogButton"
+        style="@style/buttonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:paddingVertical="@dimen/dimen_20dp"
+        android:text="@string/fetch_dog_image"
+        android:textSize="@dimen/text_16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/generateDogImageView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
